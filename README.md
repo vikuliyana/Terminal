@@ -1,5 +1,5 @@
 # Terminal
-## Homework for QA course
+
 Tasks:  
 
 1) Посмотреть где я  
