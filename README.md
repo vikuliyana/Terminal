@@ -1,7 +1,5 @@
 # Terminal
 ## Homework for QA course
-____
-
 Tasks:  
 
 1) Посмотреть где я  
