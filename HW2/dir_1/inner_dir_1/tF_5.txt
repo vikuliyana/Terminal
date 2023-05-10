@@ -1,0 +1,13 @@
+1 Alpaca
+2 Otter
+3 Cat
+4 Dog
+5 Horse
+6 Bird
+7 Mouse
+8 Rat
+9 Humster[D[D[D[D[a[C[C[C[C[C
+10 Pig
+11 Capybara
+12 Lama
+13 crocodile[D[D[D[D[D[D[D[C[C[C[C[C[C[C[C[C[C[C[
