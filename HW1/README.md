@@ -14,7 +14,7 @@ Tasks:
 4) Make 3 directories  
   `mkdir TestTask{1,2,3}`  
   
-5) Go to any directory 
+5) Go to any directory  
   `cd TestTask2`  
   
 6) Make 5 files (3 txt, 2 json)  
@@ -23,7 +23,7 @@ Tasks:
 7) Make 3 directory  
   `mkdir test1_folder{1,2,3}`  
   
-8) Show a list of directory files 
+8) Show a list of directory files  
   `ls`  
   
 9) Open any txt file  
