@@ -111,10 +111,10 @@ Tasks:
 `mkdir inner_dir_2 && cat > tf_6.txt`
 
 36) Move text files containing the word “sec" to any folder  
-`mv `grep -rwl 'sec' ./inner_dir_1` ./inner_dir_2`   
+``mv `grep -rwl 'sec' ./inner_dir_1` ./inner_dir_2``   
 
 37) Copy text files containing the word “sec" to any folder  
-cp `grep -rwl 'sec' ./inner_dir_2` ./inner_dir_1  
+``cp `grep -rwl 'sec' ./inner_dir_2` ./inner_dir_1``  
 
 
 
