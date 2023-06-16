@@ -50,7 +50,7 @@ Tasks:
 15) Make a text file tF_5.txt in which there will be 13 lines  
 `cat > tF_5.txt`  
 
-16) List all files in the directory 
+16) List all files in the directory  
 `ls -la`  
 
 17) Exit the inner_dir_1 directory  
@@ -61,5 +61,64 @@ Tasks:
 
 19) Find the path to the file tf_4.txt  
 `realpath tf_4.txt`
+
+20) Clear the file tf_4.txt from the content without deleting the file itself
+`echo > inner_dir_1/tf_4.txt`
+
+21) Find the path to files that have “tf” in the name
+`find ./inner_dir_1 -type f -name '*tf*'`
+
+22) Find the path to files that have “tf” in the name and letters in any case  
+`find ./inner_dir_1 -type f -iname '*tf*'`
+
+23) Find lines in files where there is a combination of letters “sec” in the current directory  
+`grep -r sec .`  
+
+24) Find lines in files where there is a combination of letters “sec” in any case in the current directory  
+`grep -ir sec .`  
+
+25) Find lines in files where there is only a combination of letters “sec” in the current directory  
+`grep -rw sec .`  
+
+26) Find lines in files where there is only a combination of letters “sec” in any case in the current directory  
+`grep -irw sec`  
+
+27) Find lines in files where there is a combination of letters “second” in the current directory   
+`grep -r second .`  
+
+28) Find lines in files where there is a combination of letters “second” in any case in the current directory   
+`grep -ir second .`  
+
+29) Find lines in files where there is a combination of letters “second” in all directories below the level  
+`grep -ir second ./*/`  
+
+30) Find only the path and the name of the file in the lines of which there is a combination of the letters “second” in the current directory  
+`grep -rl second .`  
+
+31) Find all lines in all files where there is no “second” combination  
+`grep -rv second .`  
+
+32) Find only the name and path to files where there is no “second” combination  
+`grep -rvl second .`  
+
+33) Output the last 4 lines of any text file to the terminal  
+`tail -4 ./inner_dir_1/tf_3.txt`  
+
+34) Output the first 4 lines of any text file to terminal  
+`head -n 4 ./inner_dir_1/tf_3.txt`  
+
+35) Create a directory and create a text file with the contents  
+`mkdir inner_dir_2 && cat > tf_6.txt`
+
+36) Move text files containing the word “sec" to any folder  
+`mv `grep -rwl 'sec' ./inner_dir_1` ./inner_dir_2`   
+
+37) Copy text files containing the word “sec" to any folder  
+cp `grep -rwl 'sec' ./inner_dir_2` ./inner_dir_1  
+
+
+
+
+
 
 
