@@ -17,8 +17,17 @@ Tasks:
 5) While in the dir_1 directory, create an empty text file tf_1.txt  
 `touch tf_1.txt`
 
-6) While in the dirt_1 folder, use the cat command to create a text file tf_2.txt with the following lines  
-`- the first 1`
-`- the second 2`
-`- the third 3`
+6) While in the dirt_1 folder, use the cat command to create a text file tf_2.txt with the following lines:  
+- the first 1  
+- the second 2  
+- the third 3  
+`cat > tf_2.txt`  
+`the first 1`  
+`the second 2`  
+`the third 3`  
+`Ctrl+D`  
+
+7) 
+
+7) 
 
