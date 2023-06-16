@@ -2,73 +2,73 @@
 
 Tasks:  
 
-1) Посмотреть где я  
+1) Show full path name of your current directory  
   `pwd`  
   
-2) Создать папку  
+2) Make a new directory  
   `mkdir TestTask`  
   
-3) Зайти в папку  
+3) Go to the directory  
   `cd TestTask`  
   
-4) Создать 3 папки  
+4) Make 3 directories  
   `mkdir TestTask{1,2,3}`  
   
-5) Зайти в любоую папку  
+5) Go to any directory 
   `cd TestTask2`  
   
-6) Создать 5 файлов (3 txt, 2 json)  
+6) Make 5 files (3 txt, 2 json)  
   `touch TextFile{1,2,3}.txt JsonFile{1,2}.json`  
   
-7) Создать 3 папки  
+7) Make 3 directory  
   `mkdir test1_folder{1,2,3}`  
   
-8) Вывести список содержимого папки  
+8) Show a list of directory files 
   `ls`  
   
-9) Открыть любой txt файл  
+9) Open any txt file  
   `nano text_file1.txt`  
   
-10) Написать туда что-нибудь, любой текст  
+10) Write something there, any text  
   `Hello!`  
   
-11) Сохранить и выйти   
+11) Save and Exit   
   `[ctrl+O] -> [Enter] -> [ctrl+X]`  
   
-12) Выйти из папки на уровень выше   
+12) Exit the directory to a higher level   
   `cd ..`  
   
-13) переместить любые 2 файла, которые вы создали, в любую другую папку  
+13) Move any 2 files that have been created to any other folder  
   `mv json_file1.json text_file1.txt test1_folder1/`  
   
-14) Cкопировать любые 2 файла, которые вы создали, в любую другую папку    
+14) Copy any 2 files to any other folder    
   `cp text_file2.txt Folder1/`  
   
-16) Найти файл по имени  
+16) Find a file by name  
   `find . -name text_file1.txt`  
 
-18) Просмотреть содержимое в реальном времени  
+18) View the content in real time  
   `tail -f TextFile1.txt`  
   
-20) Ввывести несколько первых строк из текстового файла  
+20) Print the first few lines from a text file  
   `head -n2 TextFile1.txt`  
   
-22) Вывести несколько последних строк из текстового файла  
+22) Print the last few lines from a text file  
   `tail -n2 -f /var/log/boot.log`  
   
-24) Просмотреть содержимое длинного файла  
+24) View the contents of a long file  
   `less JsonFile1.json`  
   
-27) Вывести дату и время  
+27) Print date and time  
   `date +"%D %T"`  
   
   ____
   
-  Задание *
-1) Отправить http запрос на сервер http://162.55.220.72:5005/terminal-hw-request  
+  Task *
+1) Send an http request to the server http://162.55.220.72:5005/terminal-hw-request  
   `curl "http://162.55.220.72:5005/terminal-hw-request"`  
 
-3) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  
+2) Write a script that will automatically execute the items 3, 4, 5, 6, 7, 8, 13  
 ```
     #!/bin/bash
 
