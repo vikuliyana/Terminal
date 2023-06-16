@@ -105,7 +105,7 @@ Tasks:
 `tail -4 ./inner_dir_1/tf_3.txt`  
 
 34) Output the first 4 lines of any text file to terminal  
-`head -n 4 ./inner_dir_1/tf_3.txt`  
+`head -4 ./inner_dir_1/tf_3.txt`  
 
 35) Create a directory and create a text file with the contents  
 `mkdir inner_dir_2 && cat > tf_6.txt`
@@ -114,7 +114,16 @@ Tasks:
 ``mv `grep -rwl 'sec' ./inner_dir_1` ./inner_dir_2``   
 
 37) Copy text files containing the word “sec" to any folder  
-``cp `grep -rwl 'sec' ./inner_dir_2` ./inner_dir_1``  
+``cp `grep -rwl 'sec' ./inner_dir_2` ./inner_dir_1``
+
+38) Find all lines with “sec” in all text files, copy and paste these lines into the newly created text file    
+`grep -r 'sec' * > new.txt`  
+
+39) Delete text files that have the word “sec” in their contents  
+`grep -rwl 'sec' ./inner_dir_2 | xargs rm`  
+
+40) Output the line “Good job!!” to the terminal  
+`echo “Good job!!”`
 
 
 
