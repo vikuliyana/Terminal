@@ -62,10 +62,10 @@ Tasks:
 19) Find the path to the file tf_4.txt  
 `realpath tf_4.txt`
 
-20) Clear the file tf_4.txt from the content without deleting the file itself
+20) Clear the file tf_4.txt from the content without deleting the file itself  
 `echo > inner_dir_1/tf_4.txt`
 
-21) Find the path to files that have “tf” in the name
+21) Find the path to files that have “tf” in the name  
 `find ./inner_dir_1 -type f -name '*tf*'`
 
 22) Find the path to files that have “tf” in the name and letters in any case  
